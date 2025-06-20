@@ -1,0 +1,22 @@
+INSERT INTO fornecedores (nome, endereco, telefone) VALUES
+('Empresa Alfa Ltda', 'Rua das Flores, 123', '(11) 1111-1111'),
+('Beta Comercial S.A.', 'Av. Central, 456', '(11) 2222-2222'),
+('Gamma Distribuidora', 'Rua dos Andradas, 789', '(11) 3333-3333'),
+('Delta Importações', 'Av. Paulista, 1000', '(11) 4444-4444'),
+('Epsilon Soluções', 'Rua XV de Novembro, 200', '(11) 5555-5555'),
+('Zeta Tech Ltda', 'Av. Brasil, 350', '(11) 6666-6666'),
+('Eta Industrial', 'Rua da Indústria, 400', '(11) 7777-7777'),
+('Theta Comércio', 'Av. Santos Dumont, 500', '(11) 8888-8888'),
+('Iota Representações', 'Rua da Glória, 600', '(11) 9999-9999'),
+('Kappa Suprimentos', 'Av. Independência, 700', '(11) 1010-1010'),
+('Lambda Varejo', 'Rua das Palmeiras, 800', '(11) 1112-1112'),
+('Mu Exportadora', 'Av. Rio Branco, 900', '(11) 1212-1212'),
+('Nu Importadora', 'Rua São João, 1000', '(11) 1313-1313'),
+('Xi Soluções Industriais', 'Av. Rebouças, 1100', '(11) 1414-1414'),
+('Omicron Ferragens', 'Rua Augusta, 1200', '(11) 1515-1515'),
+('Pi Comércio Geral', 'Av. Faria Lima, 1300', '(11) 1616-1616'),
+('Rho Distribuição', 'Rua Bela Vista, 1400', '(11) 1717-1717'),
+('Sigma Materiais', 'Av. Consolação, 1500', '(11) 1818-1818'),
+('Tau Engenharia', 'Rua Vergueiro, 1600', '(11) 1919-1919'),
+('Upsilon Elétrica', 'Av. Angélica, 1700', '(11) 2020-2020');
+

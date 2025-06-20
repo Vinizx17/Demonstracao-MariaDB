@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:11.3
+    container_name: mariadb_local
+    environment:
+      MARIADB_ROOT_PASSWORD: rootpass                
+      MARIADB_DATABASE: mydb                   
+      MARIADB_USER: userlocal                       
+      MARIADB_PASSWORD: userpass                                                      
+    volumes:
+      - mariadb_data:/var/lib/mysql                 
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_local
+    ports:
+      - "8080:80"                                    
+    environment:
+      PMA_HOST: mariadb_local                              
+    depends_on:
+      - mariadb
+
+volumes:
+  mariadb_data:
