@@ -24,20 +24,6 @@ Este projeto é um ambiente simples para controle de estoque, criado com MariaDB
 - **entradas_estoque**  
   Registra movimentações de entrada de estoque.
 
----
-
-## 📂 Estrutura de Pastas
-
-├── docker-compose.yml
-├── README.md
-├── LICENSE
-├── scripts/
-│ ├── criar_tabelas.sql
-│ ├── inserir_fornecedores.sql
-│ ├── inserir_produtos.sql
-│ └── inserir_entradas_estoque.sql
-
-
 
 ## 🚀 Como Subir o Ambiente
 
